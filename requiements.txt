@@ -1,0 +1,14 @@
+numpy
+pandas
+librosa
+torch
+torchvision
+torchaudio
+scikit-learn
+xgboost
+wandb
+transformers
+tqdm
+audiomentations
+matplotlib
+seaborn
