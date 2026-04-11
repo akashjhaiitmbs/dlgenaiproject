@@ -8,6 +8,7 @@ scikit-learn
 xgboost
 wandb
 transformers
+accelerate
 tqdm
 audiomentations
 matplotlib
