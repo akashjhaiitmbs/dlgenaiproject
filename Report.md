@@ -140,7 +140,7 @@ Fixed **linear fusion** of softmax-averaged predictions from EfficientNet and AS
 | `efficientnet_b0_pretrained` | ~0.99 | ~0.99 | Best single model checkpoint |
 | `ast_head_only` | ~0.87 | ~0.87 | Phase 1 only, backbone frozen |
 | `ast_full_finetune` | ~0.98 | ~0.98 | Full fine-tune, best overall |
-| **Kaggle Leaderboard** | **[YOUR LB F1]** | — | Best ensemble submission |
+| **Kaggle Leaderboard** | **0.86** | — | Best ensemble submission |
 
 *W&B comparison charts included in Appendix.*
 
@@ -174,7 +174,7 @@ Based on validation performance patterns across models:
 
 This project implements the required **model diversity** — classical boosting (XGBoost), scratch CNN (TinyCNN), pretrained CNN (EfficientNet-B0), and pretrained transformer (AST) — with full **W&B logging** and a **validation-aligned ensemble** for Kaggle.
 
-**Main results:** AST full fine-tune achieved the best validation Macro F1 of ~0.90, with the weighted ensemble submitted to Kaggle scoring **[YOUR LB F1]**.
+**Main results:** AST full fine-tune achieved the best validation Macro F1 of ~0.90, with the weighted ensemble submitted to Kaggle scoring **0.86**.
 
 **Future work:**
 - Train TinyCNN for more epochs with proper augmentation
