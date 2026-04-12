@@ -1,0 +1,8 @@
+torch
+torchvision
+transformers
+accelerate
+librosa
+numpy
+gradio>=4.44.0
+soundfile
